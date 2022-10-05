@@ -1,0 +1,78 @@
+* {
+    text-align: center;
+    background: #331a38;
+    color: white;
+}
+
+div {
+    margin-top: 200px;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    text-shadow: 0 10px 10px red,0 10px 10px red,0 10px 10px red;
+} 
+
+
+.cuadro1 {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 20%;
+    background: #fff;
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 0 10px 10px white, 0 5px 5px white, 0 5px 5px white;
+}
+
+.cuadro2 {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 20%;
+    background: #fff;
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 0 5px 5px white, 0 5px 5px white, 0 5px 5px white;
+}
+
+.calcular {
+    font-size: 25px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: red;
+    color: #fff;
+    cursor: pointer; 
+    transition: .5s;
+    border-radius: 15px 15px 15px 15px;   
+}
+
+.calcular:hover {
+    color: #fff;
+    background: red;
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
+
+.cancelar {
+    font-size: 25px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: red;
+    color: #fff;
+    cursor: pointer; 
+    transition: .5s;
+    border-radius: 15px 15px 15px 15px;   
+}
+
+.cancelar:hover {
+    color: #fff;
+    background: red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+}

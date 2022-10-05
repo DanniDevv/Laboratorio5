@@ -1,0 +1,80 @@
+*{
+    text-align: center;
+    background: rgb(36, 9, 189);
+    color: white;
+}
+
+
+div{
+    margin-top: 200px;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 30px; 
+}
+
+h1{
+    text-shadow: 0 0 15px #2b97fa, 0 0 40px #2b97fa, 0 0 80px #2b97fa, 0 0 100px #2b97fa;
+}
+
+form{
+    text-shadow: 0 0 15px #2b97fa, 0 0 40px #2b97fa, 0 0 80px #2b97fa, 0 0 100px #2b97fa;
+}
+.cuadro1 {
+    display: inline;
+    margin-left: 30px;
+    margin-top: 0px;
+    width: 20%;
+    background: #fff;
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.cuadro2 {
+    display: inline;
+    margin-left: 70px;
+    margin-top: 0px;
+    width: 20%;
+    background: #fff;
+    border-radius: 15px 15px 15px 15px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.calcular {
+    font-size: 25px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #2b97fa;
+    color: #fff;
+    cursor: pointer; 
+    transition: .5s;
+    border-radius: 15px 15px 15px 15px;   
+}
+
+.calcular:hover {
+    color: #fff;
+    background: #2b97fa;
+    box-shadow: 0 0 10px #2b97fa, 0 0 40px #2b97fa, 0 0 80px #2b97fa;
+}
+
+.cancelar {
+    font-size: 25px;
+    position: relative;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: #2b97fa;
+    color: #fff;
+    cursor: pointer; 
+    transition: .5s;
+    border-radius: 15px 15px 15px 15px;   
+}
+
+.cancelar:hover {
+    color: #fff;
+    background: #2b97fa;
+    box-shadow: 0 0 10px #2b97fa, 0 0 40px #2b97fa, 0 0 80px #2b97fa;
+}
+
